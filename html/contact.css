@@ -1,0 +1,369 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+@font-face {
+    /* تعریف نام فونت */
+    font-family: 'Vazir';
+    /* اکسپلورر 9 به بعد */
+    src: url('./fonts/Vazir.eot'),
+    /* بارگذاری فایل فونت از سرور */
+     /* هک برای اکسپلورر 8 و ماقبل */
+         url('./fonts/Vazir.ttf') format('embedded-opentype'),
+         /* فرمت مناسب مرورگرهای تقریبا جدید */
+         url('./fonts/Vazir.woff') format('woff'),
+         /* تمام مرورگرها به جزء اکسپلورر */
+         url('./fonts/Vazir.woff2') format('truetype');
+         
+    font-style: normal;
+    font-weight: normal;
+    
+}
+@font-face {
+    /* تعریف نام فونت */
+    font-family: 'FaNo';
+    /* اکسپلورر 9 به بعد */
+    src: url('./fonts/fa-number/Vazir-Medium-FD.eot'),
+    /* بارگذاری فایل فونت از سرور */
+     /* هک برای اکسپلورر 8 و ماقبل */
+         url('./fonts/fa-number/Vazir-Medium-FD.ttf') format('embedded-opentype'),
+         /* فرمت مناسب مرورگرهای تقریبا جدید */
+         url('./fonts/fa-number/Vazir-Medium-FD.woff') format('woff'),
+         /* تمام مرورگرها به جزء اکسپلورر */
+         url('./fonts/fa-number/Vazir-Medium-FD.woff2') format('truetype');
+         
+    font-style: normal;
+    font-weight: normal;
+    
+}
+
+#contact-page{
+    width: 100%;
+  
+    overflow-x: hidden;
+    
+    font-family:Vazir;
+    font-family: FaNo;
+
+   
+    
+   
+}
+@media(min-width:768px){
+
+
+    
+  .title{
+      font-size: 1.5em;
+      
+      position: relative;
+      left: 2%;
+  }
+  .info-container{
+      width: 100%;
+     
+      background-color:rgb(65, 64, 64);
+      display: flex;
+      margin-top: 15%;
+    
+      
+  }
+  .info{
+      width: 48%;
+      height: 100%;
+      margin: 2%;
+      color: white;
+      
+     
+  }
+ .call{
+     width: 100%;
+     height: 150px;
+     background-color: grey;
+     position: relative;
+     
+ }
+ .call h1{
+     font-size: 2em;
+     padding: 50px 20px;
+     color: white;
+ }
+ .w-pic{
+    width: 100%;
+    height: 300px;
+    background-color: red;
+    background: url(./img/news1.jpg) center center no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 1%;
+ }
+ .offices{
+     width: 100%;
+     height: 500px;
+    
+    position: relative;
+    top: 50%;
+ }
+ .offices h1{
+     width: 16%;
+     position: relative;
+     top:5%;
+     left: 80%;
+     border-bottom: 5px solid red;
+     color: white;
+ }
+ .offices h2{
+    position: relative;
+     top: 10%; 
+     right: 5%;
+     font-size: 1em;
+     text-align: justify;
+     text-align: right;
+     color: white;
+ }
+ .offices #h1{
+   
+    position: relative;
+     top: 11%; 
+     font-size: 23px;
+     color: white;
+ }
+ .offices #h2{
+   
+    position: relative;
+     top: 15%; 
+     font-size: 1em;
+     color: white;
+ }
+ 
+ input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container1 {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    
+    
+    
+  }
+  label{
+      display: inline-block;
+      width: 100%;
+      text-align: right;
+     
+  }
+  .map{
+      width: 620px;
+      height: 300px;
+      background-color: green;
+      position: relative;
+      top: 2%;
+      
+     
+  }
+  .ti{
+      position: absolute;
+      top: -50px;
+      left: 20%;
+      width: 100px;
+      height: 50px;
+      font-size: 1.5em;
+      color:black ;
+  }
+  
+  
+  
+}
+@media(max-width:767px){
+    body{
+        position: relative;
+    }
+    
+    .title{
+        font-size: 1em;
+       
+        position: relative;
+        left: 2%;
+    }
+    .info-container{
+        width: 90%;
+        height: 800px;
+        background-color: yellow;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 7%;
+        left: 5%;
+    }
+    .info{
+        width: 100%;
+        height: 100%;
+        margin-top: -35%;
+        background-color: rgb(0, 183, 255);
+       
+    }
+    .info2{
+        position: relative;
+        top: 115%;
+        text-align: right;
+        
+    }
+    .info1{
+        position: relative;
+        top: -70%;
+        
+    }
+   .call{
+       width: 100%;
+       height: 150px;
+       background-color: thistle;
+       position: relative;
+     
+       
+   }
+   .call h1{
+       font-size: 1.5em;
+       padding: 50px 20px;
+   }
+   .w-pic{
+      width: 100%;
+      height: 300px;
+      background-color: thistle;
+      background: url(./img/news1.jpg) center center no-repeat;
+      background-size: cover;
+      position: relative;
+      top: 1%;
+   }
+   .offices{
+       width: 100%;
+       height: 350px;
+       background-color: thistle;
+      position: relative;
+      top: 2%;
+   }
+   .offices h1{
+       width: 25%;
+       position: relative;
+       top: 5%;
+       left: 75%;
+       border-bottom: 5px solid red;
+      
+  
+   }
+   .offices h2{
+      position: relative;
+       top: 45%; 
+       font-size: 16px;
+       color: #45a049;
+   }
+   input[type=text], select, textarea {
+      width: 100%; /* Full width */
+      padding: 12px; /* Some padding */ 
+      border: 1px solid #ccc; /* Gray border */
+      border-radius: 4px; /* Rounded borders */
+      box-sizing: border-box; /* Make sure that padding and width stays in place */
+      margin-top: 6px; /* Add a top margin */
+      margin-bottom: 16px; /* Bottom margin */
+      resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+      
+    }
+    
+    /* Style the submit button with a specific background color etc */
+    input[type=submit] {
+      background-color: #04AA6D;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      position: relative;
+      left: -86%;
+      
+    }
+    
+    /* When moving the mouse over the submit button, add a darker green color */
+    input[type=submit]:hover {
+      background-color: #96af98;
+    }
+    
+    /* Add a background color and some padding around the form */
+    .container1 {
+      border-radius: 5px;
+      background-color: #f2f2f2;
+      padding: 20px;
+      
+      
+      
+    }
+    .info2 label{
+        display: inline-block;
+        width: 100%;
+        position: relative;
+        left: 0;
+        
+        
+    }
+    .map{
+        width: 90%;
+        height: 200px;
+        background-color: green;
+        position: relative;
+        top: 10%;
+        left: 7%;
+        
+        
+       
+    }
+    iframe{
+        display: none;
+    }
+    #iframe2{
+        display: inline-block;
+        position: relative;
+        left: -8%;
+    }
+
+    .ti{
+        position: absolute;
+        top: -50px;
+        left: 20%;
+        width: 100px;
+        height: 50px;
+        font-size: 1.5em;
+    }
+    /* .foot{
+        position: relative;
+        top: 120%;
+    }
+     */
+
+
+}

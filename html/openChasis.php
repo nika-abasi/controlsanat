@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>products-page</title>
+    <link rel="stylesheet" href="./products3.css">
+    <link rel="stylesheet" href="./index-style.css">
+    
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    
+
+</head>
+<body>
+     
+          <div class="header">
+          <div class="topbar">
+          <?php include 'header.php';?>
+          </div>
+      </div>
+         
+      </div>
+        
+  
+              <div class="pic-box ">
+              <img src="./img/JLX-SERIES.jpg" alt="">
+              </div>
+             <div class="narrow-line">
+                   <span>Sprint Electric >Products>Open Chassis-Mount DC Drives</span>
+             </div>
+              <div class="product-text ">
+                <h2>Easy integration with other drives and control equipment</h2>
+                <h3 id="sub-h3">Sprint Electric produce a wide range of low cost, open chassis-mount DC Drives, suitable to control DC motors up to 11kW.</h3>
+                <p id="sub-p">The 370/400/800/1200/1600i/3200i/3600XRi analogue DC Drives provide a huge variety of design options, from low cost non-isolated 1Q drives through to 4Q fast-response speed & torque control drives.
+
+                     Now with cover and additional signal terminals to the top edge [1600i / 3200i / 3600XRi models only].</p>
+                <div class="img">
+                <img src="./img/XLV-SERIES.jpg" alt="">
+                </div>
+                <h1>FAST-ACTING CURRENT CONTROL LOOP</h1>
+                <p>The XLV series is designed for precise speed control of small permanent magnet DC motors. Designed in a DIN-rail style package, the Drive allows for bi – or unipolar 0 – 10V speed / current reference. For highly dynamic applications, a shaft- mounted DC tacho-generator is recommended for speed feedback but in less demanding applications, armature voltage feedback (Avf) can be used.</p>
+
+                <div class="img  right">
+                <img src="./img/XLV-SERIES-DC-Drives-Low-voltage-input.jpg" alt="">
+                </div>
+                <h1 class="left">LOW VOLTAGE INPUT</h1>
+                <p id="left">The XLV Series is a fast response, linear DC motor speed controller for driving small low voltage brushed DC motors from 2A - 12A output power. The XLV will motor and brake in both directions of rotation and operates from a single polarity supply, either battery or unregulated DC Source from 12 – 48VDC. Excellent performance allows the XLV series to meet the most demanding of applications. The extensive specification includes many standard features not normally associated with a drive the size and cost of the XLV.</p>
+                <div class="img left3" >
+                     <img src="./img/XLV-SERIES-DC-Drives-Compact-easy-to-install.jpg" alt="" id="left-box">
+                </div> 
+                <div>
+                  <h1>COMPACT & EASY TO INSTALL </h1> 
+                  <p>The compact design has plug in screw terminals and provision for back panel (200XLV) or DIN rail mounting.
+                     The XLV series is fully EMC compliant and CE marked.</p>
+                 </div>
+                 <h1 id="benefits">Other Features & Benefits</h1>
+              </div>
+                   <div class="cols">          
+                   <div class="col1">
+                             <h3> 370 KEY FEATURES</h3>
+                             <p>For DC motors rated up to 3.7 Amps</p>
+                             <p>Integral AC supply fuse</p>
+                             <p>Selectable dual international voltage supply</p>
+                             <p>110/240V AC 50/60HZ</p>
+                             <p>Adjustable current overload protection</p>
+                             <p>Tachogenerator or armature voltage speed feedback</p>
+                             <p>Adjustable acceleration rate between 1 and 20</p>
+                             <p>seconds</p>
+                             <p>Remote stop/start signal input facility</p>
+                             <p>Adjustable IR compensation for improved AVF speed</p>
+                             <p>regulation</p>
+                             <p>Sophisticated dual loop control</p>
+                             <p>Infinitely variable</p>
+                             <p>speed adjustment via remote potentiometer</p>
+                             <p>Electronic soft start</p>
+                             <p>Drive run input</p>
+                             <p>Suitable for permanent magnet, shunt wound or</p>
+                             <p>universal motors</p>
+                             <p>Compact footprint</p>
+                             <h3>400/400I KEY FEATURES</h3>
+                             <p>For DC motors rated up to 4 Amps</p>
+                             <p>Single Quadrant operation</p>
+                             <p>400 has Non Isolated control electronics for single</p>
+                             <p>shaft applications</p>
+                             <p>400i has Fully Isolated control electronics for</p>
+                             <p>nterfacing with other systems</p>
+                             <p>Extra 50% peak torque for rapid acceleration or</p>
+                             <p>shock loads</p>
+                             <p>Torque control input for basic winding or tension</p>
+                             <p>control, with overspeed limiting</p>
+                             <p>Ultra stable potentiometer reference for optimum</p>
+                             <p>long term speed and torque stability</p>
+                             <p>Compact size</p>
+                             <p>International dual voltage supply compatability</p>
+                             <p>(100-130VAC and 200-264VAC)</p>
+                             <p>Integral AC supply fuse</p>
+                             <p>Output signals for easy display of motor speed and</p>
+                             <p>load</p>
+                             <p>Switch selectable feedback calibration – no</p>
+                             <p>component changes</p>
+                             <p>Precision tach rectifier</p>
+                             <p>Zero speed signal output</p>
+                             <p>Motor overload output</p>
+                             <p>Remote stop/start input</p>
+                             <p>User adjustable:</p>
+                             <p>– Acceleration</p>
+                             <p>– Deceleration</p>
+                             <p>– Max motor speed</p>
+                             <p>– Min motor speed</p>
+                             <p>– Max motor current</p>
+                             <p>– Stability</p>
+                             <p>– IR comp</p>
+                             <p>Motor overload output</p>
+                             <p>Output signals for easy display of motor speed and</p>
+                             <p>load</p>
+                             <p>Zero speed signal output</p>
+                             <p>Switch selectable feedback calibration – no</p>
+                             <p>component changes</p>
+                             <p>Adjustable IR compensation for improved AVF speed</p>
+                             <p>regulation</p>
+                             <p>Adjustable stability control for optimum motor</p>
+                             <p>response</p>
+                             <p>Easily interfaced with armature reversing module</p>
+                           
+                   </div>
+                   <div class="col2">
+                      <h3>800/1200 KEY FEATURES</h3>
+                      <p>800 controller for DC motors rated up to 8 Amps</p>
+                      <p>1200 controller for DC motors rated up to 12 Amps</p>
+                      <p>International dual voltage supply compatibility (100-130VAC and 200-264VAC)</p>
+                      <p>130VAC and 200-264VAC</p>
+                      <p>Single Quadrant operation</p>
+                      <p>Extra 50% peak torque for rapid acceleration or shock loads</p>
+                      <p>User adjustable:</p>
+                      <p>– Acceleration</p>
+                      <p>– Deceleration</p>
+                      <p>– Max motor speed</p>
+                      <p>– Min motor speed</p>
+                      <p>– IR comp</p>
+                      <p>– Stability</p>
+                      <p>– Max motor current</p>
+                      <p>Torque control input for basic winding or tension</p>
+                      <p>control, with overspeed limiting</p>
+                      <p>Many additional input and output signals</p>
+                      <p>Switch selectable Tach or armature voltage feedback</p>
+                      <p>4-20mA and 0-20mA loop input option as standard</p>
+                      <p>Easily interfaced with armature reversing module</p>
+                      <p>Adjustable Stability control for optimum motor response</p>
+                      <p>Integral AC supply fuse</p>
+                      <p>Ultra stable potentiometer reference for optimum</p>
+                      <p>long term speed and torque stability</p>
+                      <p>Output signals for easy display of motor speed and load</p>
+                      <p>Zero reference interlock facility</p>
+                      <p>Adjustable IR compensation for improved AVF speed regulation</p>
+                      <p>Switch selectable feedback calibration – no component changes</p>
+                      <p>Precision tach rectifier</p>
+                      <p>Zero speed signal output</p>
+                      <p>Motor overload output</p>
+                      <p>Identical footprint for 8 or 12 Amp output</p>
+                      <p>Remote stop/start input</p> 
+                      <p>Features Sprint Electric micro analog processor</p>
+                      <p>Pushbutton input for electronic control of motor stop/start</p>
+                      <p>Compact size, saves panel space and makes for easy retrofitting</p>
+                      <h3>1600I/3200I KEY FEATURES</h3>
+                      <p>1600i For DC motors up to 16 Amps</p>
+                      <p>3200i for DC motors up to 48 Amps</p> 
+                      <p>Fully isolated control electronics</p>
+                      <p>Numerous inputs and outputs for complex system applications</p>
+                      <p>Extra 50% peak torque for rapid acceleration or shock loads</p>
+                      <p>User adjustable:</p>
+                      <p>– Acceleration</p>
+                      <p>– Deceleration</p>
+                      <p>– Max motor speed</p>
+                      <p>– Min motor speed</p>
+                      <p>– IR comp</p>  
+                      <p>– Stability</p>
+                      <p>– Max motor current</p>
+                      <p>Switch selectable power up inhibit</p>
+                      <p>Switch selectable feedback calibration – no component changes</p>
+                      <p>Switched maximum current ranges for easy matching to motor current rating</p>
+                      <p>Switch selectable drive relay functions</p>
+                      
+                   </div> 
+                   <div class="col3">
+                       <p>Ultra stable potentiometer reference for optimum long term speed and torque stability</p>
+                       <p>Adjustable Stability control for optimum motor response</p>
+                       <p>Switch selectable Tach or armature voltage feedback</p>
+                       <p>Torque control input for basic winding or tension control, with overspeed limiting</p>
+                       <p>(1600i 100-130VAC and 200-264VAC, 3200i (200-264VAC and 360-440VAC)</p> 
+                       <p> Direction control by switch or centre zero pot</p> 
+                       <p>4-20mA and 0-20mA loop input option as standard</p>
+                       <p>Output signals for easy display of motor speed and load</p>
+                        <p>Compact size, saves panel space and makes for easy retrofitting</p>
+                        <p>Zero reference interlock facility</p>
+                        <p>Single Quadrant operation</p>
+                        <p>Adjustable IR compensation for improved AVF speed regulation</p>
+                        <p>Precision tach rectifier</p>
+                        <p>Now with cover and additional signal terminals to the top edge</p>
+                         <h3>3600XRI KEY FEATURES</h3>
+                         <p>Four Quadrant forward, reverse and braking operation</p>
+                         <p>Five current outputs</p>
+                         <p>– 4 Amp – 8 Amp – 16 Amp – 32 Amp – 36 Amp</p>
+                         <p>Extra 50% peak torque for rapid acceleration or shock load</p>
+                         <p>Fully regenerative – no braking energy dissipated as waste heat</p>
+                         <p>Isolated control electronics for easy connection to other drives/equipment</p>
+                          <p>Extremely compact size, saves panel space and makes for easy retrofitting</p>
+                          <p>User adjustable presets for:</p>
+                          <p>– Forward acceleration – Reverse acceleration</p>
+                          <p>– Forward deceleration – Reverse deceleration</p>
+                          <p>– Max motor speed</p>
+                          <p>– Min motor speed</p>
+                          <p>– Motor current limit</p>
+                          <p>– Brake current limit</p>
+                          <p>– Forward current limit – Reverse current limit</p>
+                          <p>– Positive current limit- Negative current limit</p>
+                          <p>– IR comp</p>
+                          <p>– Stability</p>
+                          <p>4Q torque input</p>
+                          <p>direction and jog functions</p>
+                          <p>Features Sprint Electric micro analog processor</p>
+                          <p>Direct pushbutton inputs for control of stop/start,</p>
+                          <p>Includes all the features of 1600i and 3200i</p>
+                          <p>Relay output indicates motor load > 105%</p>
+                          <p>Dual setpoint facility for alternate speed e.g. run and</p>
+                          <p>crawl toggled speed reference ideal for easy end of travel reversal</p>
+                          <p>Switch selectable Tach or Armature voltage feedback</p>
+                           <p>Switched maximum current ranges for easy matching to motor current rating</p>
+                           <p>Ultra stable potentiometer reference for optimum</p>
+                           <p>long term speed and torque stability</p>
+                           <p>International dual voltage supply compatibility</p>
+                           <p>On-board relay indicates zero speed and/or motor overload</p>
+                           <p>Now with cover and additional signal terminals to the top edge</p>
+                   </div>        
+                      
+                   </div>
+                   <div class="p-showcase" >PRODUCT SHOWCASE</div>        
+                   <div class="showcase"  >
+                  <div class="pl">
+                     <img src="./img/board.jpg" alt="">
+                     <h4>1200</h4>
+                     <p>Small footprint speed controller for permanent magnet or shunt wound motors up to 1.8KW. Non-isolated. 1Q. Up to 12A output.</p>
+                     <button class="more">MORE</button>
+                 </div>   
+                 <div class="pl">
+                     <img src="./img/board.jpg" alt="">
+                     <h4>1200LV48</h4>
+                     <p>Small footprint speed controller for permanent magnet or shunt wound motors. Non-isolated. 1Q. Up to 12A output. Low voltage 24V-48VAC option providing 18-38V DC output voltage.</p>
+                     <button class="more">MORE</button>
+                 </div> 
+                 <div class="pl">
+                     <img src="./img/board.jpg" alt="">
+                     <h4>1200LV60</h4>
+                     <p>Small footprint speed controller for permanent magnet or shunt wound motors. Non-isolated. 1Q. Up to 12A output. Low voltage 30V-60VAC option providing 24-48V DC output voltage.</p>
+                     <button class="more">MORE</button>
+                     
+                 </div> 
+                 <div class="pl ">
+                     <img src="./img/board.jpg" alt="">
+                     <h4>1600i</h4>
+                     <p>Small footprint speed controller for permanent magnet or shunt wound motors up to 2.2KW. Isolated. 1Q. Up to 16A output.</p>
+                     <button class="more">MORE</button>
+                 </div> 
+                 <div class="pl">
+                     <img src="./img/board.jpg" alt="">
+                     <h4>1600iLV48</h4>
+                     <p>Small footprint speed controller for permanent magnet or shunt wound motors. Isolated. 1Q. Up to 16A output. Low voltage 24V-48VAC option providing 18-38V DC output voltage.</p>
+                     <button class="more">MORE</button>
+                 </div> 
+                 <div class="pl">
+                     <img src="./img/board.jpg" alt="">
+                     <h4>1600iLV60</h4>
+                     <p>Small footprint speed controller for permanent magnet or shunt wound motors. Isolated. 1Q. Up to 16A output. Low voltage 30V-60VAC option providing 24-48V DC output voltage.</p>
+                     <button class="more">MORE</button>
+                       
+                 </div> 
+                
+                   </div>
+                   
+                   <div class="show-more " id="case1"  >Show More </div>   
+                   <div class="showcase case2 toggle" id="case2"  >
+                         
+                         <div class="pl">
+                        <img src="./img/3200i.jpg" alt="">
+                        <h4>3200i/16</h4>
+                        <p>Small footprint speed controller for permanent magnet or shunt wound motors up to 4KW. Isolated. 1Q. Up to 16A output. 2ph 240 – 415V input, up to 320VDC output voltage.</p>
+                        <button class="more">MORE</button>
+                         </div>   
+                         <div class="pl">
+                        <img src="./img/3200i.jpg" alt="">
+                        <h4>3200i/16LN</h4>
+                        <p>Small footprint speed controller for permanent magnet or shunt wound motors. Isolated. 1Q. Up to 16A output. 1ph 110 – 250V input, up to 180VDC output voltage.</p>
+                        <button class="more">MORE</button>
+                         </div> 
+                         <div class="pl">
+                        <img src="./img/3200i.jpg" alt="">
+                        <h4>3200i/16LV48</h4>
+                        <p>Small footprint speed controller for permanent magnet or shunt wound motors. Isolated. 1Q. Up to 16A output. Low voltage 24V-48VAC option providing 18-38V DC output voltage.</p>
+                        <button class="more">MORE</button>
+                         </div> 
+                         <div class="pl ">
+                        <img src="./img/3200i.jpg" alt="">
+                        <h4>3200i/16LV60</h4>
+                        <p>Small footprint speed controller for permanent magnet or shunt wound motors. Isolated. 1Q. Up to 16A output. Low voltage 30V-60VAC option providing 24-48V DC output voltage.</p>
+                        <button class="more">MORE</button>
+                         </div> 
+                         <div class="pl">
+                        <img src="./img/3200i.jpg" alt="">
+                        <h4>3200i/32</h4>
+                        <p>Small footprint speed controller for permanent magnet or shunt wound motors up to 7.5KW. Isolated. 1Q. Up to 32A output. 2ph 240 – 415V input, up to 320VDC output voltage.</p>
+                        <button class="more">MORE</button>
+                         </div> 
+                         <div class="pl">
+                        <img src="./img/3200i.jpg" alt="">
+                        <h4>3200i/32LN</h4>
+                        <p>Small footprint speed controller for permanent magnet or shunt wound motors. Isolated. 1Q. Up to 32A output. 1ph 110 – 250V input, up to 180VDC output voltage.</p>
+                        <button class="more">MORE</button>
+                          
+                         </div> 
+                      
+                   </div>
+                   
+                   <div class="show-more " id="case3"  >Show More </div>   
+                   <div class="showcase case2 toggle" id="case2"  >
+                         
+                         <div class="pl">
+                        <img src="./img/3200i.jpg" alt="">
+                        <h4>3200i/32LV48 </h4>
+                        <p>Small footprint speed controller for permanent magnet or shunt wound motors. Isolated. 1Q. Up to 32A output. Low voltage 24V-48VAC option providing 18-38V DC output voltage.</p>
+                        <button class="more">MORE</button>
+                         </div>   
+                         <div class="pl">
+                        <img src="./img/3200i.jpg" alt="">
+                        <h4>3200i/32LV60</h4>
+                        <p>Small footprint speed controller for permanent magnet or shunt wound motors. Isolated. 1Q. Up to 32A output. Low voltage 30V-60VAC option providing 24-48V DC output voltage.</p>
+                        <button class="more">MORE</button>
+                         </div> 
+                         <div class="pl">
+                        <img src="./img/3200i.jpg" alt="">
+                        <h4>3200i/48</h4>
+                        <p>Small footprint speed controller for permanent magnet or shunt wound motors up to 11KW. Isolated. 1Q. Up to 48A output. 2ph 240 – 415V input, up to 320VDC output voltage.</p>
+                        <button class="more">MORE</button>
+                         </div> 
+                         <div class="pl ">
+                        <img src="./img/3200i.jpg" alt="">
+                        <h4>3200i/48LN</h4>
+                        <p>Small footprint speed controller for permanent magnet or shunt wound motors. Isolated. 1Q. Up to 48A output. 1ph 110 – 250V input, up to 180VDC output voltage.</p>
+                        <button class="more">MORE</button>
+                         </div> 
+                         <div class="pl">
+                        <img src="./img/3200i.jpg" alt="">
+                        <h4>3200i/48LV48</h4>
+                        <p>Small footprint speed controller for permanent magnet or shunt wound motors. Isolated. 1Q. Up to 48A output. Low voltage 24V-48VAC option providing 18-38V DC output voltage.</p>
+                        <button class="more">MORE</button>
+                         </div> 
+                         <div class="pl">
+                        <img src="./img/3200i.jpg" alt="">
+                        <h4>3200i/48LV60</h4>
+                        <p>Small footprint speed controller for permanent magnet or shunt wound motors. Isolated. 1Q. Up to 48A output. Low voltage 30V-60VAC option providing 24-48V DC output voltage.</p>
+                        <button class="more">MORE</button>
+                          
+                         </div> 
+                      
+                   </div>
+
+                   
+                   <div class="show-more " id="case4"  >Show More </div>   
+                   <div class="showcase case2 toggle" id="case2"  >
+                         
+                         <div class="pl">
+                        <img src="./img/3200i.jpg" alt="">
+                        <h4>3600XRi/16/LV48 </h4>
+                        <p>4 quadrant regenerative controller for permanent magnet or shunt wound motors. Isolated. 4Q. Up to 16A output.Low voltage 24V-48VAC option providing 18-38V DC output voltage.</p>
+                        <button class="more">MORE</button>
+                         </div>   
+                         <div class="pl">
+                        <img src="./img/3200i.jpg" alt="">
+                        <h4>3600XRi/16/LV60</h4>
+                        <p>4 quadrant regenerative controller for permanent magnet or shunt wound motors. Isolated. 4Q. Up to 16A output.Low voltage 30V-60VAC option providing 24-48V DC output voltage.</p>
+                        <button class="more">MORE</button>
+                         </div> 
+                         <div class="pl">
+                        <img src="./img/3200i.jpg" alt="">
+                        <h4>3600XRi/32/LL</h4>
+                        <p>4 quadrant regenerative controller for permanent magnet or shunt wound motors up to 7.5KW. Isolated. 4Q. Up to 32A output.2ph 240 – 415VAC input, up to 320VDC output voltage.</p>
+                        <button class="more">MORE</button>
+                         </div> 
+                         <div class="pl ">
+                        <img src="./img/3200i.jpg" alt="">
+                        <h4>3600XRi/32/LV48</h4>
+                        <p>4 quadrant regenerative controller for permanent magnet or shunt wound motors. Isolated. 4Q. Up to 32A output. Low voltage 24V-48VAC option providing 18-38V DC output voltage.</p>
+                        <button class="more">MORE</button>
+                         </div> 
+                         <div class="pl">
+                        <img src="./img/3200i.jpg" alt="">
+                        <h4>3600XRi/32/LV60</h4>
+                        <p>4 quadrant regenerative controller for permanent magnet or shunt wound motors. Isolated. 4Q. Up to 32A output.Low voltage 30V-60VAC option providing 24-48V DC output voltage.</p>
+                        <button class="more">MORE</button>
+                         </div> 
+                         <div class="pl">
+                        <img src="./img/3200i.jpg" alt="">
+                        <h4>3600XRi/36/LL</h4>
+                        <p>4 quadrant regenerative controller for permanent magnet or shunt wound motors up to 9.5KW. Isolated. 4Q. Up to 36A output.2ph 240 – 415VAC input, up to 320VDC output voltage.</p>
+                        <button class="more">MORE</button>
+                          
+                         </div> 
+                      
+                   </div>
+
+                    
+    <?php include 'footer.php';?>
+    <script src="./script.js"></script>
+    <script src="./products.js"></script>
+    
+    </body>
+    </html
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

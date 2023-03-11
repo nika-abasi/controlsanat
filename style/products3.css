@@ -1,0 +1,528 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+@font-face {
+    /* تعریف نام فونت */
+    font-family: 'Vazir';
+    /* اکسپلورر 9 به بعد */
+    src: url('./fonts/Vazir.eot'),
+    /* بارگذاری فایل فونت از سرور */
+     /* هک برای اکسپلورر 8 و ماقبل */
+         url('./fonts/Vazir.ttf') format('embedded-opentype'),
+         /* فرمت مناسب مرورگرهای تقریبا جدید */
+         url('./fonts/Vazir.woff') format('woff'),
+         /* تمام مرورگرها به جزء اکسپلورر */
+         url('./fonts/Vazir.woff2') format('truetype');
+         
+    font-style: normal;
+    font-weight: normal;
+    
+}
+@font-face {
+    /* تعریف نام فونت */
+    font-family: 'FaNo';
+    /* اکسپلورر 9 به بعد */
+    src: url('./fonts/fa-number/Vazir-Medium-FD.eot'),
+    /* بارگذاری فایل فونت از سرور */
+     /* هک برای اکسپلورر 8 و ماقبل */
+         url('./fonts/fa-number/Vazir-Medium-FD.ttf') format('embedded-opentype'),
+         /* فرمت مناسب مرورگرهای تقریبا جدید */
+         url('./fonts/fa-number/Vazir-Medium-FD.woff') format('woff'),
+         /* تمام مرورگرها به جزء اکسپلورر */
+         url('./fonts/fa-number/Vazir-Medium-FD.woff2') format('truetype');
+         
+    font-style: normal;
+    font-weight: normal;
+    
+}
+
+
+
+body{
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+    background-color: rgb(255, 255, 255);
+    font-size: 16px;
+    position: relative;
+    
+   
+}
+@media  (max-width:767px){
+   
+    body{
+       
+        width: 100%;
+    }
+    
+
+   .pic-box{
+       width: 100%;
+       height: 300px;
+       background-color: aqua;
+       position: relative;
+       top: 3.5%;
+       text-align: center;
+       display: block;
+       
+    } 
+    .pic-box img{
+        width: 100%;
+        height: 90%;
+        
+        
+    }
+    .narrow-line{
+        width: 100%;
+        height: 30px;
+        background-color: rgb(221, 221, 220);
+       position: relative;
+       top: 2%;
+       text-align: center;
+       line-height: 30px;
+      
+       
+    }
+    .product-text{
+        font-family: sans-serif;
+        position: absolute;
+        top: 20%;
+        margin: 10%;
+        text-align: center;
+       
+    
+    }
+    .product-text .img{
+        width: 80%;
+        height: 60%;
+     
+    }
+    
+    .product-text h2{
+        color: red;
+        margin: 1%;
+    }
+    .product-text h1{
+    font-size: 1.5em;
+    font-weight: 550;
+    text-align: center;
+    margin: 5%;
+    color: red;
+    
+}
+   .product-text h3{
+    font-size: 1.2em;
+    font-weight: 500;
+    text-align: center;
+   margin-top: 2%;
+  
+}
+.product-text p{
+    font-size: 1em;
+   
+    text-align: center;
+   margin-top: 5%;
+   text-align: justify;
+    text-justify: inter-word;
+}
+.product-text .img{
+    width: 100%;
+  
+  
+}
+.product-text .img img{
+    width: 100%;
+    height: 100%;
+   
+}
+.showcase{
+    width: 100%;
+    height: 355%;
+    background-color: black;
+    position: relative;
+    top: 350%;
+}
+.showcase img{
+    width: 100%;
+    height: 100%;
+    margin-top: 30%;
+   
+}
+.more{
+    width: 5%;
+    height: 10px;
+    border: none;
+    color: red;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 5%;
+    background-color: black;
+} 
+.pl{
+    margin: 4%;
+    color: white;
+    background-color: black;
+}
+
+}
+
+@media(min-width:768px){
+
+
+.pic-box{
+   height: 300px;
+    background: url(./img/board-circuit.jpg) center center ;
+   background-size: cover;
+  
+   width: 100%;
+   display: block;
+    position: relative;
+    text-align: center;
+}
+
+
+#big-box{
+    height:700px;
+    position: relative;
+    top: -200px;
+   
+  
+}
+ .narrow-line{
+     width: 100%;
+     height: 30px;
+     background-color: rgb(163, 163, 131);
+    position: relative;
+    text-align: center;
+    line-height: 30px;
+    font-family: sans-serif;
+    
+ }
+ .section1{
+     width: 100%;
+     height: 300%;
+
+     
+     
+ }
+ .product-text{
+     width: 100%;
+     font-family: sans-serif;
+     position: relative;
+
+     text-align: center;
+     font-size: 1.5em;
+     background-color: white;
+    
+ 
+ }
+ .product-text img{
+     width: 100%;
+     height: 100%;
+     margin-top:-6%;
+     
+ }
+ .left2{
+    top: 120px;
+} 
+.left2 img{
+   margin-top: -9%;
+}
+ .product-text h2{
+     color:#d20511;
+     margin-top: 0.5%;
+     width: 70%;
+     margin-left: 15%;
+     
+ }
+  .product-text p{
+     
+     width: 40%;
+   
+     
+     
+ } 
+ #sub-h3{
+     width: 60%;
+     margin-left: 20%;
+ }
+ 
+
+ .product-text h1{
+     width: 50%;
+ font-size: 1.2em;
+ font-weight: 550;
+ text-align: center;
+ margin-top: -300px;
+ margin-left: 35%;
+ color: #d20511;
+ 
+}
+#benefits1{
+ width: 30%;
+font-size: 1.8em;
+ font-weight: 550;
+ text-align: center;
+ margin-top: 200px;
+ position: relative;
+ left: 35%;
+    color:#d20511 ;
+   
+}
+.product-text h3{
+ padding:20px 50px ; 
+ font-size: 1.2em;
+ font-weight: 500;
+ text-align: left;
+margin-top: 5%;
+
+
+
+}
+ #sub-p {
+     width: 90%;
+     margin-left: 5%;
+     
+ }
+ .right{
+     margin-left: 50%;
+     margin-top: 5%;
+   
+ }
+ .right img{
+     margin-top: -10%;
+ }
+ 
+ .left{
+position: relative;   
+ left: -35%;
+    
+    
+    
+    
+   
+ }
+ #left{
+     width: 50%;
+     position: relative;
+     left: -54%;
+     margin-top: 4%;
+     font-size: 0.8em;
+     
+ }
+ #benefits{
+     width: 100%;
+     margin-top: 10%;
+     margin-left: -10%;
+     font-size: 1.5em;
+     
+ }
+
+.product-text p{
+ font-size: 0.80em;
+ margin-left: 55%;
+ text-align: center;
+margin-top: 5%;
+text-align: justify;
+ text-justify: inter-word;
+}
+.product-text .img{
+ width: 50%;
+ height: 300px;
+ position: relative;
+ margin-top: 20%;
+ 
+}
+.product-text .img img{
+    width: 80%;
+    position: relative;
+    top: 20%;
+}
+
+.cols{
+    width: 100%;
+    background-color: rgb(240, 238, 238);
+    display: flex;
+    font-family: sans-serif;
+}
+.col1, .col2, .col3  {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+}
+.cols h3{
+    font-size: 1em;
+    text-align: left;
+    font-weight:unset;
+    margin-bottom: 4%;
+}
+.cols  p{
+    width: 100%;
+    font-size: 0.8em;
+}
+
+.showcase{
+ width: 100%;
+ height: 1000px;
+ background-color: black;
+ position: relative;
+ display: flex;
+ flex-flow: row wrap;
+
+}
+ .p-showcase{
+     width:100% ;
+     height: 100px;
+     background-color: rgb(0, 0, 0);
+     color: #d20511;
+     font-size: 1.5em;
+     font-weight: 600;
+     text-align: center;
+     line-height: 100px;
+
+ }
+.showcase .pl{
+    width: 30%;
+    height: 450px;
+   margin-left: 2.5%;
+   margin-top: 2%;
+   background-color: black;
+    
+}
+.pl img{
+ width: 100%;
+ height: 60%;
+
+}
+ .pl h4   {
+    font-size: 1.2em;
+    margin-top: 0;
+    text-align: left;
+}
+.showcase .pl  p{
+    position: relative;
+    top: 100%;
+    font-size: 0.7em;
+    margin-left: 0;
+    margin-top: -110%;
+    z-index: 2;
+    width: 100%
+    
+}
+.pl .more{
+ width: 20%;
+ height: 20px;
+ border: none;
+ color: #d20511;
+ font-size: 15px;
+  font-weight: 600;
+  background-color: black;
+  position: relative;
+  left: 2%;
+  top: 105%;
+  
+} 
+.pl{
+ 
+ color: white;
+ font-family: sans-serif;
+ font-size: 25px;
+margin-top: -2%;
+
+
+}
+.p-table{
+ width: 100%;
+ height: 600px;
+ background-color: black;
+ position: relative;
+ display: grid;
+} 
+
+
+
+.show-more{
+        width:15%;
+        height: 50px;
+        padding: 10px 35px;
+        background-color: #d20511;
+        position: relative;
+        left: 42.5%;
+        z-index: 1;
+        font-size: 20px;
+        font-weight: 500;
+        cursor: pointer;
+        color: white;
+        border-radius: 5px;
+        border: 1px dotted #805456 ;
+        box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+        display:none;
+}
+.show{
+    display: block;
+    background-color:#d20511 ;
+}
+#case1{
+    margin-top: 2%;
+    display: block;
+   
+}
+#case2{
+    margin-top: -2%;
+    
+}
+.case2 .pl{
+ margin-top: 2%;
+ 
+}
+.case3 .pl{
+    margin-top: 2%;
+   
+}
+#case3{
+    margin-top: 0;
+   
+}
+#case5{
+    margin-top: -4%;
+   height: 700px;
+}
+
+ #case6{
+    margin-top: 0;
+    height: 1200px;
+    background-color: blueviolet;
+ }
+ .left3{
+     width:110px;
+ }
+  .left3 img{
+    margin-top: -19%;
+     
+ }
+.toggle{
+    display: none;
+
+}
+.top-arrow{
+    width: 10%;
+    height: 15%;
+    background-color: chartreuse;
+    position: relative;
+    left: 45%;
+    top: 1.5%;
+    
+}
+
+
+}      
+   
+  
+  
+
+

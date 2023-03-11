@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 50vh;
+    font-size: 16px;
+     background-color:#e8e8e8 ;
+     list-style: none;
+     
+    
+}
+.container{
+    width: 100%;
+    position: relative;
+    top: 20%;
+    display: flex;
+   
+
+    
+}
+ul{
+    width: 100%;
+   list-style: none;
+   text-align: center;
+   position: relative;
+   
+}
+.container ul li{
+    width: 100%;
+    position: relative;
+    
+ }
+.container ul li a{
+   text-decoration: none;   
+   font-size: 1.5em; 
+ }
+.productbtn{
+    position: relative;
+    width: 100%;
+    font-size: 1.5em;
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+    background-color: #e8e8e8;
+   
+}
+
+.products {
+    display: none;
+  
+}
+.products li {
+    font-size: 0.8em;
+}
+.fas{
+    position: relative;
+    right: 5%;
+    font-size: 15px;
+    color:#DB2E33 ;
+}
+.fas2{
+    position: relative;
+    right: 42%;
+    color:#DB2E33 ;
+}
+.fas3{
+    position: relative;
+    right:35%;
+    color:#DB2E33 ;
+}
+
+.show{
+    display: block;
+}
+.sprintbtn{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    font-size: 1em;
+    text-decoration: none;
+    border: none;
+    display: inline-block;
+   
+}
+.subSprint{
+    display: none;
+}
+.subMotrona{
+    display:none;
+}
+.motronabtn{
+    position: relative;
+    width: 100%;
+    font-size: 1em;
+    text-decoration: none;
+    border: none;
+    display: inline-block;
+     
+}
+.show{
+    display: block;
+    background-color: white;
+   
+ }
+ .changeColor{
+     color: white;
+ }
+ .close{
+     font-size: 36px;
+     height: 1%;
+     color: #DB2E33 ;
+     font-weight: 600;
+     position: relative;
+     top: 1%;
+     left: 90%;
+     cursor: pointer;
+ }
